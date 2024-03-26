@@ -21,8 +21,8 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://172.31.86.91:9000/</sonar.host.url>
-		<sonar.login>squ_fe5e882d42bb1f854934b817b2efbb7181b16486</sonar.login>
+		<sonar.host.url>http://172.31.34.27:9000/</sonar.host.url>
+		<sonar.login>squ_2fa527428b070f0ebb506d109baf7062b915693a</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -83,12 +83,12 @@
 		
 		<!-- provided dependencies -->
 
-	<dependency>
-	   <groupId>javax.servlet</groupId>
-	   <artifactId>javax.servlet-api</artifactId>
-	   <version>3.1.0</version>
-	   <scope>provided</scope>
-	</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
 		
 	</dependencies>
 	
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.28.90:9980/gotawsjob/repository/hdfcbank/</url>
+	      <url>http://172.31.3.67:9980/mithuntechnologies/repository/citibank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.28.90:9980/gotawsjob/repository/hdfcbank-snapshot/</url>
+	      <url>http://172.31.3.67:9980/mithuntechnologies/repository/citibank-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
